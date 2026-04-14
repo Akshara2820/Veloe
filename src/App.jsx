@@ -7,6 +7,8 @@ import Poll from './components/Poll';
 import Waitlist from './components/Waitlist';
 import Footer from './components/Footer';
 
+import Moodboard from './components/Moodboard';
+
 function App() {
   return (
     <div className="min-h-screen selection:bg-brand-beige selection:text-brand-charcoal">
@@ -14,6 +16,7 @@ function App() {
       <main>
         <Hero />
         <SizeFluidInteractive />
+        <Moodboard />
         <Philosophy />
         <Poll />
         <Waitlist />
