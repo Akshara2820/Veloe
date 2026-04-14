@@ -31,7 +31,7 @@ const Hero = () => {
             VELOÉ — Adjustable fashion for modern women.
           </p>
           <p className="max-w-md text-brand-charcoal/50 font-sans font-light leading-relaxed mb-10">
-            Because your body is a masterpiece in constant evolution. We build garments that grow, contract, and breathe with you. Not the other way around.
+            No more chasing sizes or standards—your body is not the problem. Clothing should adapt to you.
           </p>
           <motion.button 
             whileHover={{ scale: 1.05 }}

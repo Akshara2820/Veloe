@@ -65,11 +65,10 @@ const Philosophy = () => {
             <div className="max-w-3xl text-center">
               <p className="font-serif italic text-2xl md:text-3xl leading-snug mb-8 text-brand-offwhite">
                 “At VELOÉ, we’re redefining what it means to fit. 
-                No more chasing sizes or standards—your body is not the problem. The system is.”
+                No more chasing sizes or standards—your body is not the problem.”
               </p>
               <p className="font-sans font-light text-brand-offwhite/60 mb-12 text-sm uppercase tracking-widest leading-loose">
-                We design fashion that adapts to you—effortless, adjustable, and made for real life. 
-                Because style should never ask you to change. It should fit you.
+                Clothing should adapt to you. Effortless, adjustable, and made for the evolving woman.
               </p>
             </div>
             <div className="flex flex-col items-center">

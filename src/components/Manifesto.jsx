@@ -15,7 +15,7 @@ const Manifesto = () => {
           >
             <span className="text-[10px] uppercase tracking-[0.8em] text-brand-accent font-semibold mb-8 block">The VELOÉ Standard</span>
             <h2 className="text-4xl md:text-6xl lg:text-7xl font-serif leading-[1.2] mb-12 italic">
-               “Style should never ask you to change. <br/> It should <span className="text-brand-accent not-italic">fit you.</span>”
+               “At VELOÉ, we’re redefining what it means to fit.”
             </h2>
           </motion.div>
 
@@ -34,8 +34,8 @@ const Manifesto = () => {
             viewport={{ once: true }}
             className="text-xs md:text-sm uppercase tracking-[0.4em] leading-[2] font-light max-w-3xl"
           >
-            We design fashion that adapts to you—effortless, adjustable, and made for real life. 
-            Because your body is the masterpiece. The system is the canvas.
+            No more chasing sizes or standards—your body is not the problem. 
+            Clothing should adapt to you.
           </motion.p>
         </div>
       </div>
