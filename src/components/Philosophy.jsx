@@ -72,8 +72,8 @@ const Philosophy = () => {
               </p>
             </div>
             <div className="flex flex-col items-center">
-                <span className="text-5xl font-serif italic text-brand-accent mb-4">Akshara</span>
-                <span className="text-[10px] uppercase tracking-[0.6em] text-brand-offwhite/30 font-semibold">Founder & Creative Director</span>
+                <span className="text-5xl md:text-6xl font-serif italic text-brand-accent mb-4">Akshara</span>
+                <span className="font-serif italic text-sm tracking-[0.2em] text-brand-offwhite/50 lowercase">founder & creative director</span>
             </div>
           </motion.div>
         </div>
