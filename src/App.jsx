@@ -7,7 +7,6 @@ import Poll from './components/Poll';
 import Waitlist from './components/Waitlist';
 import Footer from './components/Footer';
 import Moodboard from './components/Moodboard';
-import Manifesto from './components/Manifesto';
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
         <SizeFluidInteractive />
         <Moodboard />
         <Philosophy />
-        <Manifesto />
         <Poll />
         <Waitlist />
       </main>

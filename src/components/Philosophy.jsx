@@ -64,10 +64,12 @@ const Philosophy = () => {
           >
             <div className="max-w-3xl text-center">
               <p className="font-serif italic text-2xl md:text-3xl leading-snug mb-8 text-brand-offwhite">
-                “I started VELOÉ because I was tired of clothes feeling like a cage. Every woman deserves to feel confident in her skin, no matter how she evolves.”
+                “At VELOÉ, we’re redefining what it means to fit. 
+                No more chasing sizes or standards—your body is not the problem. The system is.”
               </p>
               <p className="font-sans font-light text-brand-offwhite/60 mb-12 text-sm uppercase tracking-widest leading-loose">
-                We aren’t just making fashion; we’re reclaiming our right to move with dignity through every phase of life.
+                We design fashion that adapts to you—effortless, adjustable, and made for real life. 
+                Because style should never ask you to change. It should fit you.
               </p>
             </div>
             <div className="flex flex-col items-center">
