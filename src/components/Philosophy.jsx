@@ -62,12 +62,19 @@ const Philosophy = () => {
             transition={{ duration: 0.8, delay: 0.8 }}
             className="mt-32 pt-20 border-t border-brand-offwhite/5 flex flex-col items-center"
           >
-            <p className="font-serif italic text-2xl mb-8 max-w-2xl">
-              "My mission with VELOÉ is simple: to stop the endless pursuit of 'fitting in' and start making fashion that 'fits you.' Your body is not the problem; the industry's rigid sizing is. We are here to change that."
-            </p>
+            <div className="max-w-3xl text-center">
+              <p className="font-serif italic text-2xl md:text-3xl leading-snug mb-8 text-brand-offwhite">
+                “At VELOÉ, we’re redefining what it means to fit. 
+                No more chasing sizes or standards—your body is not the problem. The system is.”
+              </p>
+              <p className="font-sans font-light text-brand-offwhite/60 mb-12 text-sm uppercase tracking-widest leading-loose">
+                We design fashion that adapts to you—effortless, adjustable, and made for real life. 
+                Because style should never ask you to change. It should fit you.
+              </p>
+            </div>
             <div className="flex flex-col items-center">
-                <span className="text-4xl font-serif italic text-brand-accent mb-2">Akshara</span>
-                <span className="text-[10px] uppercase tracking-[0.4em] text-brand-offwhite/40">Founder & Creative Director</span>
+                <span className="text-5xl font-serif italic text-brand-accent mb-4">Akshara</span>
+                <span className="text-[10px] uppercase tracking-[0.6em] text-brand-offwhite/30 font-semibold">Founder & Creative Director</span>
             </div>
           </motion.div>
         </div>
