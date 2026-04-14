@@ -1,28 +1,29 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import yellowImg from '../assets/yellow.png';
+import pinkImg from '../assets/pink.png';
+import creamImg from '../assets/cream.png';
+import blackImg from '../assets/black.png';
 import heroImg from '../assets/hero.png';
-import gardenImg from '../assets/garden_edit.png';
-import peachImg from '../assets/peach.png';
-import emeraldImg from '../assets/emerald.png';
 
 const Moodboard = () => {
   const images = [
     { src: heroImg, span: 'col-span-2 row-span-2' },
-    { src: gardenImg, span: 'col-span-1 row-span-1' },
-    { src: peachImg, span: 'col-span-1 row-span-1' },
-    { src: emeraldImg, span: 'col-span-1 row-span-2' },
-    { src: gardenImg, span: 'col-span-1 row-span-1' },
+    { src: pinkImg, span: 'col-span-1 row-span-1' },
+    { src: yellowImg, span: 'col-span-1 row-span-1' },
+    { src: blackImg, span: 'col-span-1 row-span-2' },
+    { src: creamImg, span: 'col-span-1 row-span-1' },
   ];
 
   return (
     <section className="py-24 bg-brand-offwhite overflow-hidden">
       <div className="container mx-auto px-8 md:px-20 mb-16 flex flex-col md:flex-row justify-between items-end gap-8">
         <div>
-          <span className="text-xs uppercase tracking-[0.4em] text-brand-accent mb-4 block">Moodboard</span>
-          <h2 className="text-4xl md:text-5xl font-serif">The VELOÉ Muse</h2>
+          <span className="text-xs uppercase tracking-[0.4em] text-brand-accent mb-4 block">Archive</span>
+          <h2 className="text-4xl md:text-5xl font-serif text-brand-charcoal">The VELOÉ Muse</h2>
         </div>
         <p className="max-w-xs text-brand-charcoal/50 text-xs font-sans font-light leading-relaxed uppercase tracking-widest">
-           A curation of sketches, textures, and silhouettes that define our current obsession.
+           A curation of specific silhouettes including our signature Yellow Eyelet and Black Pearl Cocktail.
         </p>
       </div>
 

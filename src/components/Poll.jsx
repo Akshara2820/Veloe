@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { motion, useMotionValue, useSpring, useTransform, AnimatePresence } from 'framer-motion';
-import sketchImg from '../assets/sketch_edit.png';
-import gardenImg from '../assets/garden_edit.png';
+import yellowImg from '../assets/yellow.png';
+import blackImg from '../assets/black.png';
 
 const PollCard = ({ option, isVoted, onClick }) => {
   const x = useMotionValue(0);
@@ -107,8 +107,8 @@ const Poll = () => {
   const [voted, setVoted] = useState(null);
 
   const options = [
-    { id: 'sculptural', name: 'The Sculptural Edit', image: sketchImg, theme: 'LAB SERIES' },
-    { id: 'garden', name: 'The Garden Edit', image: gardenImg, theme: 'LIFESTYLE SERIES' }
+    { id: 'yellow', name: 'The Solar Eyelet', image: yellowImg, theme: 'COLLECTION 01' },
+    { id: 'black', name: 'The Pearl Nocturne', image: blackImg, theme: 'EVENING SERIES' }
   ];
 
   return (
@@ -117,10 +117,10 @@ const Poll = () => {
         <div className="flex flex-col md:flex-row justify-between items-baseline mb-20 gap-8">
            <div className="max-w-xl">
                 <span className="text-xs uppercase tracking-[0.4em] text-brand-accent mb-4 block">Community Co-Creation</span>
-                <h2 className="text-5xl md:text-6xl font-serif leading-tight">Which Vibe Should Lead Our Debut?</h2>
+                <h2 className="text-5xl md:text-6xl font-serif leading-tight text-brand-charcoal">Vote for our Debut Heirloom</h2>
            </div>
            <p className="max-w-xs text-brand-charcoal/50 text-[11px] uppercase tracking-[0.2em] leading-relaxed">
-             At VELOÉ, we don't just design for you; we design with you. Your aesthetic preference shapes our first production run.
+             Which silhouette defines the VELOÉ launch? Your choice will determine the first piece we bring to life.
            </p>
         </div>
 
