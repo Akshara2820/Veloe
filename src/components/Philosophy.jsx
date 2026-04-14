@@ -60,9 +60,15 @@ const Philosophy = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.8 }}
-            className="mt-24 inline-block px-12 py-6 border border-brand-beige/30 text-xs uppercase tracking-[0.3em] hover:bg-brand-offwhite hover:text-brand-charcoal transition-all cursor-pointer"
+            className="mt-32 pt-20 border-t border-brand-offwhite/5 flex flex-col items-center"
           >
-            Read Our Whitepaper on Fluid Design
+            <p className="font-serif italic text-2xl mb-8 max-w-2xl">
+              "My mission with VELOÉ is simple: to stop the endless pursuit of 'fitting in' and start making fashion that 'fits you.' Your body is not the problem; the industry's rigid sizing is. We are here to change that."
+            </p>
+            <div className="flex flex-col items-center">
+                <span className="text-4xl font-serif italic text-brand-accent mb-2">Akshara</span>
+                <span className="text-[10px] uppercase tracking-[0.4em] text-brand-offwhite/40">Founder & Creative Director</span>
+            </div>
           </motion.div>
         </div>
       </div>

@@ -14,8 +14,8 @@ const Navbar = () => {
       </div>
       
       <div className="hidden md:flex space-x-12 text-sm uppercase tracking-widest font-sans font-light">
-        <a href="#adjustable" className="hover:text-brand-accent transition-colors">The Fit</a>
-        <a href="#philosophy" className="hover:text-brand-accent transition-colors">Philosophy</a>
+        <a href="#adjustable" className="hover:text-brand-accent transition-colors">The Lab</a>
+        <a href="#philosophy" className="hover:text-brand-accent transition-colors">Purpose</a>
         <a href="#waitlist" className="hover:text-brand-accent transition-colors">Inner Circle</a>
       </div>
 

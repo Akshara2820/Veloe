@@ -10,7 +10,7 @@ const Footer = () => {
               VELOÉ
             </div>
             <p className="max-w-xs text-brand-charcoal/50 text-sm font-sans font-light leading-relaxed">
-              Crafting a future where fashion adapts to the woman, not the other way around. Based in Mumbai, shipping Worldwide.
+              VELOÉ — Designed to fit you, not the other way around. Based in Mumbai, crafting the future of adjustable fashion.
             </p>
           </div>
           

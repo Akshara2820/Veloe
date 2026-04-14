@@ -17,18 +17,21 @@ const Hero = () => {
             Size-Fluid Essentials
           </span>
           <h1 className="text-5xl md:text-7xl lg:text-8xl leading-[1.1] mb-8 font-serif">
-            Fashion that <br />
+            Designed to <br />
             <motion.span 
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ duration: 1.5, delay: 0.8 }}
               className="italic font-light"
             >
-              Evolved
-            </motion.span> with You
+              Fit You.
+            </motion.span>
           </h1>
-          <p className="max-w-md text-brand-charcoal/70 font-sans font-light leading-relaxed mb-10">
-            Designed for the modern woman whose life is in motion. Our garments adapt to your body's natural rhythm, ensuring a perfect fit through every phase of life.
+          <p className="max-w-md text-brand-charcoal/70 font-sans font-light leading-relaxed mb-6 uppercase tracking-[0.2em] text-[10px]">
+            VELOÉ — Adjustable fashion for modern women.
+          </p>
+          <p className="max-w-md text-brand-charcoal/50 font-sans font-light leading-relaxed mb-10">
+            Because your body is a masterpiece in constant evolution. We build garments that grow, contract, and breathe with you. Not the other way around.
           </p>
           <motion.button 
             whileHover={{ scale: 1.05 }}
